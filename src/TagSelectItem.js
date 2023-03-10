@@ -2,11 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import {
   View,
-  ViewPropTypes,
   Text,
   StyleSheet,
   TouchableOpacity
 } from 'react-native'
+import { ViewPropTypes } from 'deprecated-react-native-prop-types'
 
 TagSelectItem.propTypes = {
   label: PropTypes.string,

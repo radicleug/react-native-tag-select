@@ -2,9 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import {
   View,
-  ViewPropTypes,
   StyleSheet
 } from 'react-native'
+import { ViewPropTypes } from 'deprecated-react-native-prop-types'
 
 import TagSelectItem from './TagSelectItem'
 
